@@ -9,18 +9,19 @@ Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Package: regolith-i3-config
 Architecture: any
 Depends: ${misc:Depends},
-  i3-gaps-wm,
+  i3-wm,
   xdg-utils,
   xdotool
 Conflicts: regolith-i3-wm
 Replaces: regolith-i3-wm
-Description: Regolith i3-gaps config file
+Description: Regolith i3 config file
  This is the i3 config file for the Regolith desktop environment.
 
 Package: regolith-i3-gaps-partial
 Architecture: any
 Depends: ${misc:Depends},
   regolith-i3-config,
+  i3-gaps-wm,
   i3-snapshot
 Description: Save and restore in-session window layouts in i3
 
