@@ -1,3 +1,3 @@
-# regolith-i3-gaps-config
+# regolith-i3-config
 
-This repo is for Regolith-specific configuration for i3-gaps.  
+This repo is for Regolith-specific configuration for i3wm and variants.  
