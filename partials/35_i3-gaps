@@ -5,13 +5,13 @@
 ## Resize // Window Gaps // + - ##
 set_from_resource $i3-wm.binding.inc_gaps i3-wm.binding.inc_gaps plus
 set_from_resource $i3-wm.binding.dec_gaps i3-wm.binding.dec_gaps minus
-bindsym $i3-wm.binding.dec_gaps gaps inner current minus 6
-bindsym $i3-wm.binding.inc_gaps gaps inner current plus 6
+bindsym $mod+$i3-wm.binding.dec_gaps gaps inner current minus 6
+bindsym $mod+$i3-wm.binding.inc_gaps gaps inner current plus 6
 
 set_from_resource $i3-wm.binding.inc_gaps_big i3-wm.binding.inc_gaps_big Shift+plus
 set_from_resource $i3-wm.binding.dec_gaps_big i3-wm.binding.dec_gaps_big Shift+minus
-bindsym $i3-wm.binding.dec_gaps_big gaps inner current minus 12
-bindsym $i3-wm.binding.inc_gaps_big gaps inner current plus 12
+bindsym $mod+$i3-wm.binding.dec_gaps_big gaps inner current minus 12
+bindsym $mod+$i3-wm.binding.inc_gaps_big gaps inner current plus 12
 
 ###############################################################################
 # i3 Appearance and Behavior
