@@ -40,6 +40,13 @@ Depends: ${misc:Depends},
   remontoire
 Description: Help for new users
 
+Package: regolith-i3-remontoire
+Architecture: any
+Depends: ${misc:Depends},
+  regolith-i3-config,
+  remontoire
+Description: Help for new users
+
 Package: regolith-i3-compositor
 Architecture: any
 Depends: ${misc:Depends},
