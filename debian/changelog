@@ -1,4 +1,4 @@
-regolith-i3-config (3.0.9-1ubuntu1) UNRELEASED; urgency=medium
+regolith-i3-config (3.0.10-1ubuntu1) focal; urgency=medium
 
   [ Ken Gilmer ]
   * Fix gaps keybinding declaration
