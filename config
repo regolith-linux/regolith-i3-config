@@ -1,5 +1,5 @@
 ###############################################################################
-# i3-gaps config file for the Regolith Desktop Environment
+# i3 config file for the Regolith Desktop Environment
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 #
@@ -25,3 +25,14 @@
 #
 # Reload i3 after making Xresource changes.  Learn more at
 # https://regolith-linux.org/docs/howtos/override-xres/
+#
+###############################################################################
+#
+# This file uses a machine-parsable format for comments. The schema is:
+# ## <Category> // <Action> // <Keybinding> ##
+# Learn more at https://github.com/regolith-linux/remontoire
+#
+###############################################################################
+
+include /etc/regolith/i3/config.d/*
+include $HOME/.config/regolith/i3/config.d/*

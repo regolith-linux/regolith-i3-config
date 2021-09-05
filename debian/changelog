@@ -1,3 +1,13 @@
+regolith-i3-config (3.1.0-1) focal; urgency=medium
+
+  [ Joe Guo ]
+  * Fix howto url typo
+
+  [ Ken Gilmer ]
+  * Update partials for i3 4.20
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 05 Sep 2021 16:52:03 -0700
+
 regolith-i3-config (3.0.11-1) focal; urgency=medium
 
   [ Ken Gilmer ]
