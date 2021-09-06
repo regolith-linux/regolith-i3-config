@@ -1,3 +1,11 @@
+regolith-i3-config (3.1.1-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * build automation
+  * Fix typo error in config
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 05 Sep 2021 17:55:56 -0700
+
 regolith-i3-config (3.1.0-1) focal; urgency=medium
 
   [ Joe Guo ]
