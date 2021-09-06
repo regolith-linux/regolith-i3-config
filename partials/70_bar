@@ -9,7 +9,7 @@ bindsym $mod+$i3-wm.binding.bar_toggle bar mode toggle
 
 set_from_resource $i3-wm.bar.position i3-wm.bar.position bottom
 set_from_resource $i3-wm.bar.font i3-wm.bar.font pango:Source Code Pro Medium 13, Material Design Icons 13
-set_from_resource $i3-wm.bar.separator i3-wm.bar.separator " "
+set_from_resource $i3-wm.bar.separatorchar i3-wm.bar.separatorchar " "
 set_from_resource $i3-wm.bar.trayoutput i3-wm.bar.trayoutput primary
 set_from_resource $i3-wm.bar.stripworkspacenumbers i3-wm.bar.stripworkspacenumbers yes
 set_from_resource $i3-wm.bar.mode i3-wm.bar.mode dock
@@ -22,7 +22,7 @@ bar {
   position $i3-wm.bar.position
   mode $i3-wm.bar.mode
   font $i3-wm.bar.font
-  separator_symbol $i3-wm.bar.separator
+  separator_symbol $i3-wm.bar.separatorchar
   status_command $i3-wm.bar.status_command
   tray_output $i3-wm.bar.trayoutput
   strip_workspace_numbers $i3-wm.bar.stripworkspacenumbers

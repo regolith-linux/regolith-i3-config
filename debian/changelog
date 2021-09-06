@@ -1,3 +1,10 @@
+regolith-i3-config (3.1.2-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Consolidate some partials to handle variable access limitations w/ i3 partials
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 05 Sep 2021 20:48:13 -0700
+
 regolith-i3-config (3.1.1-1) focal; urgency=medium
 
   [ Ken Gilmer ]

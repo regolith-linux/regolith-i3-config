@@ -1,12 +1,7 @@
 config /etc/regolith/i3/
 
-partials/05_meta-keybindings      /etc/regolith/i3/config.d
-partials/10_workspaces            /etc/regolith/i3/config.d
-partials/15_primary-keybindings   /etc/regolith/i3/config.d
-partials/30_navigation            /etc/regolith/i3/config.d
 partials/50_resize-mode           /etc/regolith/i3/config.d
 partials/55_session_keybindings   /etc/regolith/i3/config.d
-partials/65_appearance            /etc/regolith/i3/config.d
 partials/90_user-programs         /etc/regolith/i3/config.d
 
 Xresources/30_i3 /etc/regolith/Xresources.d/
