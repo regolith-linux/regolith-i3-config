@@ -8,6 +8,11 @@ set_from_resource $i3-wm.binding.launcher.cmd i3-wm.binding.launcher.cmd Shift+s
 set_from_resource $i3-wm.program.launcher.cmd i3-wm.program.launcher.cmd ilia -p terminal
 bindsym $mod+$i3-wm.binding.launcher.cmd exec $i3-wm.program.launcher.cmd
 
+## Launch // Keybinding Viewer // <><Shift> ? ##
+set_from_resource $i3-wm.binding.help i3-wm.binding.help Shift+question
+set_from_resource $i3-wm.program.help i3-wm.program.help ilia -p keybindings
+bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help
+
 ## Navigate // Window by Name // <><Ctrl> Space ##
 # TBD
 #set_from_resource $i3-wm.binding.launcher.window i3-wm.binding.launcher.window Ctrl+space
