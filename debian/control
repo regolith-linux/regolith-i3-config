@@ -68,6 +68,13 @@ Depends: ${misc:Depends},
     regolith-rofi-config
 Description: Global menu system
 
+Package: regolith-i3-ilia
+Architecture: any
+Depends: ${misc:Depends},
+    ilia,
+    regolith-i3-config
+Description: Desktop executor
+
 Package: regolith-i3-rofication
 Architecture: any
 Depends: ${misc:Depends},
