@@ -1,8 +1,16 @@
+regolith-i3-config (3.4.0-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * add configurable workspace movement, from https://github.com/regolith-linux/regolith-i3-gaps-config/pull/37.
+  * Add all next-workspace bindings
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 06 Nov 2021 14:31:44 -0700
+
 regolith-i3-config (3.3.0-1ubuntu1) focal; urgency=medium
 
   [ Ken Gilmer ]
   * Add keybinding viewer (ilia), replacing remontoire
-
+~
  -- Regolith Linux <regolith.linux@gmail.com>  Sun, 31 Oct 2021 15:12:04 -0700
 
 regolith-i3-config (3.2.0-1) focal; urgency=medium
