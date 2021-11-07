@@ -78,7 +78,7 @@ Description: Desktop executor
 Package: regolith-i3-rofication
 Architecture: any
 Depends: ${misc:Depends},
-    rofi,
+    ilia,
     regolith-i3-config,
     regolith-rofication
 Description: Rofi based notifications

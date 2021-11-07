@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.0-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Switch to ilia for rofication UI
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 06 Nov 2021 20:58:31 -0700
+
 regolith-i3-config (3.4.0-1) focal; urgency=medium
 
   [ Ken Gilmer ]
