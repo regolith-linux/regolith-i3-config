@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.1-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Remove i3-next-workspace from common config
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 08 Nov 2021 07:44:06 -0800
+
 regolith-i3-config (3.5.0-1) focal; urgency=medium
 
   [ Ken Gilmer ]

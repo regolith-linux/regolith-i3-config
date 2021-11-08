@@ -201,10 +201,6 @@ bindsym $mod+$i3-wm.binding.ws_prev_on_output workspace prev_on_output
 set_from_resource $i3-wm.binding.ws_prev_on_output2 i3-wm.binding.ws_prev_on_output2 Ctrl+h
 bindsym $mod+$i3-wm.binding.ws_prev_on_output2 workspace prev_on_output
 
-## Navigate // Next Free Workspace // <> ` ##
-set_from_resource $i3-wm.binding.next_free i3-wm.binding.next_free grave
-bindsym $mod+$i3-wm.binding.next_free exec --no-startup-id /usr/bin/i3-next-workspace
-
 ## Navigate // Scratchpad // <><Ctrl> a ##
 set_from_resource $i3-wm.binding.scratchpad i3-wm.binding.scratchpad Ctrl+a
 bindsym $mod+$i3-wm.binding.scratchpad scratchpad show
