@@ -21,12 +21,12 @@ bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help
 
 ## Launch // File Search // <><Alt> Space ##
 # TBD
-#set_from_resource $i3-wm.binding.file_search i3-wm.binding.file_search Mod1+space
+#set_from_resource $i3-wm.binding.file_search i3-wm.binding.file_search $alt+space
 #set_from_resource $i3-wm.program.file_search i3-wm.program.file_search rofi -show find -modi find:/usr/share/rofi/modi/finder.sh
 #bindsym $mod+$i3-wm.binding.file_search exec $i3-wm.program.file_search
 
 ## Launch // Look Selector // <><Alt> l ##
 # TBD
-#set_from_resource $i3-wm.binding.look_selector i3-wm.binding.look_selector Mod1+l
+#set_from_resource $i3-wm.binding.look_selector i3-wm.binding.look_selector $alt+l
 #set_from_resource $i3-wm.program.look_selector i3-wm.program.look_selector rofi -show look -modi look:/usr/share/rofi/modi/look-selector.sh
 #bindsym $mod+$i3-wm.binding.look_selector exec $i3-wm.program.look_selector
