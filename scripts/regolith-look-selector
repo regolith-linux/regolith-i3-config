@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+new_look=$(/usr/bin/regolith-look list | ilia -p textlist)
+
+if [ "$new_look" ]; then
+    /usr/bin/regolith-look set "$new_look" >/dev/null 2>&1
+fi

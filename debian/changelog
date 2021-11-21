@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.3-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Use ilia for look selector
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 21 Nov 2021 15:21:39 -0800
+
 regolith-i3-config (3.5.2-1) focal; urgency=medium
 
   [ Ken Gilmer ]

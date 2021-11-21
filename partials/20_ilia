@@ -26,7 +26,6 @@ bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help
 #bindsym $mod+$i3-wm.binding.file_search exec $i3-wm.program.file_search
 
 ## Launch // Look Selector // <><Alt> l ##
-# TBD
-#set_from_resource $i3-wm.binding.look_selector i3-wm.binding.look_selector $alt+l
-#set_from_resource $i3-wm.program.look_selector i3-wm.program.look_selector rofi -show look -modi look:/usr/share/rofi/modi/look-selector.sh
-#bindsym $mod+$i3-wm.binding.look_selector exec $i3-wm.program.look_selector
+set_from_resource $i3-wm.binding.look_selector i3-wm.binding.look_selector $alt+l
+set_from_resource $i3-wm.program.look_selector i3-wm.program.look_selector regolith-look-selector
+bindsym $mod+$i3-wm.binding.look_selector exec $i3-wm.program.look_selector
