@@ -7,5 +7,5 @@ set_from_resource $i3-wm.binding.move_next_free i3-wm.binding.move_next_free Shi
 bindsym $mod+$i3-wm.binding.move_next_free exec --no-startup-id /usr/bin/i3-next-workspace --move-window
 
 ## Modify // Carry Window to Next Free Workspace // <><Alt> ` ##
-set_from_resource $i3-wm.binding.take_next_free i3-wm.binding.take_next_free $alt+grave
-bindsym $mod+$i3-wm.binding.take_next_free exec --no-startup-id /usr/bin/i3-next-workspace --move-window-and-follow
+set_from_resource $i3-wm.binding.take_next_free i3-wm.binding.take_next_free grave
+bindsym $mod+$alt+$i3-wm.binding.take_next_free exec --no-startup-id /usr/bin/i3-next-workspace --move-window-and-follow

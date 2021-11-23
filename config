@@ -174,8 +174,8 @@ set_from_resource $i3-wm.binding.ws_next i3-wm.binding.ws_next Tab
 bindsym $mod+$i3-wm.binding.ws_next workspace next
 
 ## Navigate // Next Workspace // <><Alt> → ##
-set_from_resource $i3-wm.binding.ws_next2 i3-wm.binding.ws_next2 $alt+Right
-bindsym $mod+$i3-wm.binding.ws_next2 workspace next
+set_from_resource $i3-wm.binding.ws_next2 i3-wm.binding.ws_next2 Right
+bindsym $mod+$alt+$i3-wm.binding.ws_next2 workspace next
 
 ## Navigate // Next Workspace on Output // <><Ctrl> Tab ##
 set_from_resource $i3-wm.binding.ws_next_on_output i3-wm.binding.ws_next_on_output Ctrl+Tab
@@ -190,8 +190,8 @@ set_from_resource $i3-wm.binding.ws_prev i3-wm.binding.ws_prev Shift+Tab
 bindsym $mod+$i3-wm.binding.ws_prev workspace prev
 
 ## Navigate // Previous Workspace // <><Alt> ← ##
-set_from_resource $i3-wm.binding.ws_prev2 i3-wm.binding.ws_prev2 $alt+Left
-bindsym $mod+$i3-wm.binding.ws_prev2 workspace prev
+set_from_resource $i3-wm.binding.ws_prev2 i3-wm.binding.ws_prev2 Left
+bindsym $mod+$alt+$i3-wm.binding.ws_prev2 workspace prev
 
 ## Navigate // Previous Workspace on Output // <><Ctrl><Shift> Tab ##
 set_from_resource $i3-wm.binding.ws_prev_on_output i3-wm.binding.ws_prev_on_output Ctrl+Shift+Tab
