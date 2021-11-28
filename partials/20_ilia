@@ -14,16 +14,14 @@ set_from_resource $i3-wm.program.help i3-wm.program.help ilia -p keybindings
 bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help
 
 ## Navigate // Window by Name // <><Ctrl> Space ##
-# TBD
-#set_from_resource $i3-wm.binding.launcher.window i3-wm.binding.launcher.window Ctrl+space
-#set_from_resource $i3-wm.program.launcher.window i3-wm.program.launcher.window rofi -show window -theme $rofiTheme
-#bindsym $mod+$i3-wm.binding.launcher.window exec $i3-wm.program.launcher.window
+set_from_resource $i3-wm.binding.launcher.window i3-wm.binding.launcher.window Ctrl+space
+set_from_resource $i3-wm.program.launcher.window i3-wm.program.launcher.window ilia -p windows
+bindsym $mod+$i3-wm.binding.launcher.window exec $i3-wm.program.launcher.window
 
 ## Launch // File Search // <><Alt> Space ##
-# TBD
-#set_from_resource $i3-wm.binding.file_search i3-wm.binding.file_search space
-#set_from_resource $i3-wm.program.file_search i3-wm.program.file_search rofi -show find -modi find:/usr/share/rofi/modi/finder.sh
-#bindsym $mod+$alt+$i3-wm.binding.file_search exec $i3-wm.program.file_search
+set_from_resource $i3-wm.binding.file_search i3-wm.binding.file_search space
+set_from_resource $i3-wm.program.file_search i3-wm.program.file_search ilia -p tracker
+bindsym $mod+$alt+$i3-wm.binding.file_search exec $i3-wm.program.file_search
 
 ## Launch // Look Selector // <><Alt> l ##
 set_from_resource $i3-wm.binding.look_selector i3-wm.binding.look_selector l

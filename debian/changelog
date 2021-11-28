@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.5-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add seperate rofications for rofi and ilia front ends
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 28 Nov 2021 11:24:03 -0800
+
 regolith-i3-config (3.5.4-1ubuntu1) focal; urgency=medium
 
   [ Ken Gilmer ]
