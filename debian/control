@@ -81,6 +81,7 @@ Depends: ${misc:Depends},
     rofi,
     regolith-i3-config,
     regolith-rofication
+Conflicts: regolith-i3-rofication-ilia
 Description: Rofi based notifications
 
 Package: regolith-i3-rofication-ilia
@@ -89,6 +90,7 @@ Depends: ${misc:Depends},
     ilia,
     regolith-i3-config,
     regolith-rofication
+Conflicts: regolith-i3-rofication
 Description: Rofi based notifications
 
 Package: regolith-i3-gnome

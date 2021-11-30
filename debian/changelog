@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.6-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Make rofi and ilia versions of rofication ui mutually exclusive
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 29 Nov 2021 18:00:19 -0800
+
 regolith-i3-config (3.5.5-1) focal; urgency=medium
 
   [ Ken Gilmer ]
