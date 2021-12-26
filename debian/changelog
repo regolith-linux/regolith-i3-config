@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.7-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Conditionally apply i3 xresources, allowing looks to override
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 26 Dec 2021 15:50:26 -0800
+
 regolith-i3-config (3.5.6-1) focal; urgency=medium
 
   [ Ken Gilmer ]
