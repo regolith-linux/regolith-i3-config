@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.8-1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add '--no-startup-id' when exec launchers
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 31 Dec 2021 12:25:24 -0800
+
 regolith-i3-config (3.5.7-1) focal; urgency=medium
 
   [ Ken Gilmer ]
