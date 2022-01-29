@@ -1,3 +1,9 @@
+regolith-i3-config (3.5.9-1) focal; urgency=medium
+
+  * Remove app launch notification for launchers
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 29 Jan 2022 11:53:45 -0800
+
 regolith-i3-config (3.5.8-1) focal; urgency=medium
 
   [ Ken Gilmer ]
