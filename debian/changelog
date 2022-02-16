@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.11) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * looks will host i3wm xres files, not here
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 15 Feb 2022 20:18:49 -0800
+
 regolith-i3-config (3.5.10-1) focal; urgency=medium
 
   * Move to regolith2 config dir
