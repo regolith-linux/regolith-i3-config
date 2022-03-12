@@ -1,3 +1,10 @@
+regolith-i3-config (3.5.12) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add breaking package from Regolith 1.6 due to file conflict
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 12 Mar 2022 11:13:07 -0800
+
 regolith-i3-config (3.5.11) focal; urgency=medium
 
   [ Ken Gilmer ]

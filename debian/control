@@ -12,8 +12,8 @@ Depends: ${misc:Depends},
   i3-wm,
   xdg-utils,
   xdotool
-Conflicts: regolith-i3-wm
-Replaces: regolith-i3-wm
+Conflicts: regolith-i3-wm, regolith-i3-gaps-config
+Replaces: regolith-i3-wm, regolith-i3-gaps-config
 Description: Regolith i3 config file
  This is the i3 config file for the Regolith desktop environment.
 
