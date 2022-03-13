@@ -37,7 +37,7 @@ Architecture: any
 Depends: ${misc:Depends},
   regolith-ftue,
   regolith-i3-config,
-  remontoire
+  ilia
 Description: Help for new users
 
 Package: regolith-i3-remontoire
