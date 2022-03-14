@@ -97,7 +97,7 @@ Package: regolith-i3-gnome
 Architecture: any
 Depends: ${misc:Depends},
     regolith-i3-config,
-    gnome-control-center,
+    regolith-control-center,
     gnome-settings-daemon
 Description: gnome integrations for system management
 

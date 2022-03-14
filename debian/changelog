@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.0) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Migrate from gnome-control-center to regolith-control-center
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 13 Mar 2022 19:35:11 -0700
+
 regolith-i3-config (3.5.13) focal; urgency=medium
 
   [ Ken Gilmer ]
