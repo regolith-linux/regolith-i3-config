@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.1) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Move i3xrocks conf.d from /etc to /usr/share/regolith due to apt policy issues with files in /etc.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 16 Mar 2022 21:31:34 -0700
+
 regolith-i3-config (3.6.0) focal; urgency=medium
 
   [ Ken Gilmer ]
