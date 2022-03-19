@@ -1,1 +1,1 @@
-partials/80_compositor            /etc/regolith/i3/config.d
+partials/80_compositor            /usr/share/regolith/i3/config.d

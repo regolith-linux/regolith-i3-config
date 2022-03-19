@@ -1,7 +1,7 @@
 config /etc/regolith/i3/
 
-partials/50_resize-mode           /etc/regolith/i3/config.d
-partials/55_session_keybindings   /etc/regolith/i3/config.d
-partials/90_user-programs         /etc/regolith/i3/config.d
+partials/50_resize-mode           /usr/share/regolith/i3/config.d
+partials/55_session_keybindings   /usr/share/regolith/i3/config.d
+partials/90_user-programs         /usr/share/regolith/i3/config.d
 
 scripts/regolith-look-selector /usr/bin

@@ -391,5 +391,5 @@ set_from_resource $i3-wm.font i3-wm.font pango:Source Code Pro Medium 13
 font $i3-wm.font
 
 
-include /etc/regolith/i3/config.d/*
+include /usr/share/regolith/i3/config.d/*
 include $HOME/.config/regolith2/i3/config.d/*

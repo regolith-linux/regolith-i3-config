@@ -2,12 +2,13 @@
 # Window Resize and Gaps
 ###############################################################################
 
-## Resize // Window Gaps // + - ##
+## Resize // Window Gaps // <> + - ##
 set_from_resource $i3-wm.binding.inc_gaps i3-wm.binding.inc_gaps plus
 set_from_resource $i3-wm.binding.dec_gaps i3-wm.binding.dec_gaps minus
 bindsym $mod+$i3-wm.binding.dec_gaps gaps inner current minus 6
 bindsym $mod+$i3-wm.binding.inc_gaps gaps inner current plus 6
 
+## Resize // Big Window Gaps // <> <Shift> + - ##
 set_from_resource $i3-wm.binding.inc_gaps_big i3-wm.binding.inc_gaps_big Shift+plus
 set_from_resource $i3-wm.binding.dec_gaps_big i3-wm.binding.dec_gaps_big Shift+minus
 bindsym $mod+$i3-wm.binding.dec_gaps_big gaps inner current minus 12
