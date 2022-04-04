@@ -45,6 +45,7 @@ Architecture: any
 Depends: ${misc:Depends},
   regolith-i3-config,
   remontoire
+Conflicts: regolith-i3-ilia
 Description: Help for new users
 
 Package: regolith-i3-compositor
@@ -73,6 +74,7 @@ Architecture: any
 Depends: ${misc:Depends},
     ilia,
     regolith-i3-config
+Conflicts: regolith-i3-remontoire
 Description: Desktop executor
 
 Package: regolith-i3-rofication

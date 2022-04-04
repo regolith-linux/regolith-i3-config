@@ -1,3 +1,12 @@
+regolith-i3-config (3.6.2) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Move i3 partials from /etc to /usr
+  * Add label for gaps
+  * remontoire and ilia keybindings conflict because they both specify help. Set 'conflicts' in debian accordingly.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 03 Apr 2022 17:36:48 -0700
+
 regolith-i3-config (3.6.1) focal; urgency=medium
 
   [ Ken Gilmer ]
