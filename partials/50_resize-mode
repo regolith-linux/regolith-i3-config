@@ -29,4 +29,5 @@ mode "Resize Mode" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
-bindsym $mod+r mode "Resize Mode"
+set_from_resource $i3-wm.binding.resize_mode i3-wm.binding.resize_mode r
+bindsym $mod+$i3-wm.binding.resize_mode mode "Resize Mode"
