@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.3) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Allow resize mode keybinding to be overridden to address https://github.com/regolith-linux/regolith-desktop/issues/627
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 09 Apr 2022 15:22:01 -0700
+
 regolith-i3-config (3.6.2) focal; urgency=medium
 
   [ Ken Gilmer ]
