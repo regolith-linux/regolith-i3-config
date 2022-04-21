@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.4) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Extract i3 style config to optional partial
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Wed, 20 Apr 2022 20:32:15 -0700
+
 regolith-i3-config (3.6.3) focal; urgency=medium
 
   [ Ken Gilmer ]
