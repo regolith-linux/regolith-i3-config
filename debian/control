@@ -12,10 +12,18 @@ Depends: ${misc:Depends},
   i3-wm,
   xdg-utils,
   xdotool
+Recommends: regolith-i3-default-style
 Conflicts: regolith-i3-wm, regolith-i3-gaps-config
 Replaces: regolith-i3-wm, regolith-i3-gaps-config
 Description: Regolith i3 config file
  This is the i3 config file for the Regolith desktop environment.
+
+Package: regolith-i3-default-style
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-i3-config
+Description: Regolith i3 style
+ Basic UI configuration for i3 based on Regolith's default style.
 
 Package: regolith-i3-gaps-partial
 Architecture: any
