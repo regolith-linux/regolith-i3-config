@@ -12,7 +12,10 @@ Depends: ${misc:Depends},
   i3-wm,
   xdg-utils,
   xdotool
-Recommends: regolith-i3-default-style
+Recommends: regolith-i3-default-style,
+  regolith-i3-session,
+  regolith-i3-resize,
+  regolith-i3-user-programs
 Conflicts: regolith-i3-wm, regolith-i3-gaps-config
 Replaces: regolith-i3-wm, regolith-i3-gaps-config
 Description: Regolith i3 config file
@@ -39,6 +42,24 @@ Depends: ${misc:Depends},
   regolith-i3-config,
   i3-snapshot
 Description: Save and restore in-session window layouts in i3
+
+Package: regolith-i3-session
+Architecture: any
+Depends: ${misc:Depends},
+  regolith-i3-config
+Description: Regolith Desktop session keybindings
+
+Package: regolith-i3-resize
+Architecture: any
+Depends: ${misc:Depends},
+  regolith-i3-config
+Description: Regolith Desktop resize keybindings
+
+Package: regolith-i3-user-programs
+Architecture: any
+Depends: ${misc:Depends},
+  regolith-i3-config
+Description: Regolith Desktop custom user programs
 
 Package: regolith-i3-ftue
 Architecture: any

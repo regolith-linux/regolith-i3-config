@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.5) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Remove session, resize, and user programs from hard dependencies in i3 config
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 23 Apr 2022 11:13:10 -0700
+
 regolith-i3-config (3.6.4) focal; urgency=medium
 
   [ Ken Gilmer ]
