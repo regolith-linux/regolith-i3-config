@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.6) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Remove unneeded dep from i3-gaps to i3-snapshot.  Cleanup
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 01 May 2022 09:00:38 -0700
+
 regolith-i3-config (3.6.5) focal; urgency=medium
 
   [ Ken Gilmer ]
