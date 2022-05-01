@@ -363,8 +363,8 @@ set_from_resource $i3-wm.bar.workspace.urgent.background.color i3-wm.bar.workspa
 set_from_resource $i3-wm.bar.workspace.urgent.text.color i3-wm.bar.workspace.urgent.text.color "#fdf6e3"
 
 # Sets i3 font for dialogs
-set_from_resource $i3-wm.font i3-wm.font pango:Source Code Pro Medium 13
-font $i3-wm.font
+set_from_resource $i3-wm.font gtk.font.name Sans 13
+font pango:$i3-wm.font
 
 # Include any regolith i3 partials
 include /usr/share/regolith/i3/config.d/*

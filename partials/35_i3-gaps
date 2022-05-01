@@ -1,5 +1,5 @@
 ###############################################################################
-# Window Resize and Gaps
+# i3-gaps Window Resize
 ###############################################################################
 
 ## Resize // Window Gaps // <> + - ##
@@ -15,7 +15,7 @@ bindsym $mod+$i3-wm.binding.dec_gaps_big gaps inner current minus 12
 bindsym $mod+$i3-wm.binding.inc_gaps_big gaps inner current plus 12
 
 ###############################################################################
-# i3 Appearance and Behavior
+# i3-gaps Appearance and Behavior
 ###############################################################################
 
 # Specify the distance between windows in pixels. (i3-gaps)

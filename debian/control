@@ -32,9 +32,9 @@ Package: regolith-i3-gaps-partial
 Architecture: any
 Depends: ${misc:Depends},
   regolith-i3-config,
-  i3-gaps-wm,
-  i3-snapshot
-Description: Save and restore in-session window layouts in i3
+  i3-gaps-wm
+Description: i3-gaps specific configuration
+ This package will install i3-gaps and associated configuration.
 
 Package: regolith-i3-snapshot
 Architecture: any
