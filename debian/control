@@ -12,10 +12,13 @@ Depends: ${misc:Depends},
   i3-wm,
   xdg-utils,
   xdotool
-Recommends: regolith-i3-default-style,
-  regolith-i3-session,
+Recommends: regolith-i3-base-launchers,
+  regolith-i3-default-style,
+  regolith-i3-navigation,
   regolith-i3-resize,
-  regolith-i3-user-programs
+  regolith-i3-session,
+  regolith-i3-user-programs,
+  regolith-i3-workspace-config
 Conflicts: regolith-i3-wm, regolith-i3-gaps-config
 Replaces: regolith-i3-wm, regolith-i3-gaps-config
 Description: Regolith i3 config file
@@ -153,3 +156,22 @@ Depends: ${misc:Depends},
   regolith-i3-config,
   network-manager-gnome
 Description: nm-applet integration with i3
+
+Package: regolith-i3-base-launchers
+Architecture: any
+Depends: ${misc:Depends},
+    libgtk-3-bin,
+    regolith-i3-config
+Description: Terminal and Browser launcher config
+
+Package: regolith-i3-workspace-config
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-i3-config
+Description: Configuration for windows and workspaces
+
+Package: regolith-i3-navigation
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-i3-config
+Description: Configuration for navigation
