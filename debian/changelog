@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.10) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Fix typo of new mapping for Xres mono font to i3 bar font
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 09 May 2022 07:22:08 -0700
+
 regolith-i3-config (3.6.9) focal; urgency=medium
 
   [ Ken Gilmer ]
