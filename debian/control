@@ -9,7 +9,7 @@ Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Package: regolith-i3-config
 Architecture: any
 Depends: ${misc:Depends},
-  i3-wm,
+  i3-wm (>= 4.20),
   xdg-utils,
   xdotool
 Recommends: regolith-i3-base-launchers,
