@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.11) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Require i3 version with config partials in regolith 2
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Thu, 12 May 2022 07:12:24 -0700
+
 regolith-i3-config (3.6.10) focal; urgency=medium
 
   [ Ken Gilmer ]
