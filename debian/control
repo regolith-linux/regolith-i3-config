@@ -35,7 +35,7 @@ Package: regolith-i3-gaps-partial
 Architecture: any
 Depends: ${misc:Depends},
   regolith-i3-config,
-  i3-gaps-wm
+  i3-gaps-wm (>= 4.20)
 Description: i3-gaps specific configuration
  This package will install i3-gaps and associated configuration.
 
