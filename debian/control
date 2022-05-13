@@ -15,8 +15,11 @@ Depends: ${misc:Depends},
 Recommends: regolith-i3-base-launchers,
   regolith-i3-default-style,
   regolith-i3-navigation,
+  regolith-i3-networkmanager,
+  regolith-i3-next-workspace,
   regolith-i3-resize,
   regolith-i3-session,
+  regolith-i3-unclutter,
   regolith-i3-user-programs,
   regolith-i3-workspace-config
 Conflicts: regolith-i3-wm, regolith-i3-gaps-config
