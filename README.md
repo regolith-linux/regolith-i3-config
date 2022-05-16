@@ -49,7 +49,7 @@ The first directory is used by Debian packages to add or remove i3 configuration
 In many cases, configuration can be tuned to user preference simply by providing Xresource override values into `~/.config/regolith2/Xresources`.  However larger changes may require deeper changes to the i3 config file.  To best support getting upstream updates for bug fixes and new features while also being able to make bigger changes to config, the following procedure is recommended:
 
 1. Find the partial that contains the config element(s) that are to be changed.
-2. Copy the partials from the `/usr` directory into the user directory.  (eg `cp /usr/share/regolith/i3/config.d/50_resize-mode ~/.config/regolith2/i3/config.d/)
+2. Copy the partials from the `/usr` directory into the user directory.  (eg `cp /usr/share/regolith/i3/config.d/50_resize-mode ~/.config/regolith2/i3/config.d/`)
 3. Remove the default configuration (to prevent conflicts) via apt.  (eg `sudo apt remove regolith-i3-resize`)
 4. Update the copied configuration files as desired.
 5. Refresh i3 or log back in
