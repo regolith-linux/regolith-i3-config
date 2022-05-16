@@ -14,7 +14,7 @@ bindsym $mod+$i3-wm.binding.launcher.cmd exec --no-startup-id $i3-wm.program.lau
 ## Launch // Keybinding Viewer // <><Shift> ? ##
 set_from_resource $i3-wm.binding.help i3-wm.binding.help Shift+question
 set_from_resource $i3-wm.program.help i3-wm.program.help ilia -p keybindings
-bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help -t $ilia.stylesheet
+bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help -a -t $ilia.stylesheet
 
 ## Navigate // Window by Name // <><Ctrl> Space ##
 set_from_resource $i3-wm.binding.launcher.window i3-wm.binding.launcher.window Ctrl+space
