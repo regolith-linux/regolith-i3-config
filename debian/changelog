@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.14) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Load all pages in ilia when users load the keybindings dialog
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 15 May 2022 18:23:28 -0700
+
 regolith-i3-config (3.6.13) focal; urgency=medium
 
   [ Ken Gilmer ]
