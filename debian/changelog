@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.15) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add OR dependency on i3-gaps-wm to resolve packaging issue found on Bullseye
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 15 May 2022 21:15:38 -0700
+
 regolith-i3-config (3.6.14) focal; urgency=medium
 
   [ Ken Gilmer ]
