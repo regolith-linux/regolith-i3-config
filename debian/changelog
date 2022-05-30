@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.17) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Allow look-selector icon to be overridden. Specify better default icon
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 30 May 2022 11:41:38 -0700
+
 regolith-i3-config (3.6.16) focal; urgency=medium
 
   [ Ken Gilmer ]
