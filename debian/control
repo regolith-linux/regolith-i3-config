@@ -66,6 +66,7 @@ Architecture: any
 Depends: ${misc:Depends},
   regolith-i3-config
 Description: Regolith Desktop custom user programs
+ Support for Regolith 1.x style user programs.
 
 Package: regolith-i3-ftue
 Architecture: any
@@ -74,6 +75,7 @@ Depends: ${misc:Depends},
   regolith-i3-config,
   ilia
 Description: Help for new users
+ Presents the keybindings view on first login.
 
 Package: regolith-i3-remontoire
 Architecture: any
@@ -82,12 +84,14 @@ Depends: ${misc:Depends},
   remontoire
 Conflicts: regolith-i3-ilia
 Description: Help for new users
+ Bindings to the keybinding viewer Remontoire.
 
 Package: regolith-i3-compositor
 Architecture: any
 Depends: ${misc:Depends},
   regolith-compositor-none | regolith-compositor
 Description: Integration of compositor into i3
+ Launches a compositor for window effects.
 
 Package: regolith-i3-unclutter
 Architecture: any
@@ -95,6 +99,7 @@ Depends: ${misc:Depends},
   regolith-i3-config,
   regolith-unclutter-xfixes
 Description: Hide the mouse cursor if not used
+ Launches unclutter upon start to hide mouse when not in use.
 
 Package: regolith-i3-rofi
 Architecture: any
@@ -103,6 +108,7 @@ Depends: ${misc:Depends},
     regolith-i3-config,
     regolith-rofi-config
 Description: Global menu system
+ Legacy Rofi support
 
 Package: regolith-i3-ilia
 Architecture: any
@@ -111,6 +117,8 @@ Depends: ${misc:Depends},
     regolith-i3-config
 Conflicts: regolith-i3-remontoire
 Description: Desktop executor
+ Manage apps, commands, notifications, keybindings, and 
+ windows with this utility.
 
 Package: regolith-i3-rofication
 Architecture: any
@@ -120,6 +128,7 @@ Depends: ${misc:Depends},
     regolith-rofication
 Conflicts: regolith-i3-rofication-ilia
 Description: Rofi based notifications
+ Rofication keybindings for Rofi.
 
 Package: regolith-i3-rofication-ilia
 Architecture: any
@@ -129,6 +138,7 @@ Depends: ${misc:Depends},
     regolith-rofication
 Conflicts: regolith-i3-rofication
 Description: Rofi based notifications
+ Rofication keybindings for ilia.
 
 Package: regolith-i3-gnome
 Architecture: any
@@ -137,6 +147,7 @@ Depends: ${misc:Depends},
     regolith-control-center,
     gnome-settings-daemon
 Description: gnome integrations for system management
+ Launch settings app for system management.
 
 Package: regolith-i3-next-workspace
 Architecture: any
@@ -144,6 +155,7 @@ Depends: ${misc:Depends},
     regolith-i3-config,
     i3-next-workspace
 Description: easy i3 workspace creation
+ Automatically determine unused workspace to move to.
 
 Package: regolith-i3-i3xrocks
 Architecture: any
@@ -152,6 +164,7 @@ Depends: ${misc:Depends},
     i3xrocks,
     regolith-i3xrocks-config
 Description: regolith default bar and status indicators
+ Status bar indicator integration.
 
 Package: regolith-i3-networkmanager
 Architecture: any
@@ -159,6 +172,7 @@ Depends: ${misc:Depends},
   regolith-i3-config,
   network-manager-gnome
 Description: nm-applet integration with i3
+ Launches nm-applet at i3 start.
 
 Package: regolith-i3-base-launchers
 Architecture: any
@@ -166,15 +180,18 @@ Depends: ${misc:Depends},
     libgtk-3-bin,
     regolith-i3-config
 Description: Terminal and Browser launcher config
+ Adds keybindings for terminal and browser.
 
 Package: regolith-i3-workspace-config
 Architecture: any
 Depends: ${misc:Depends},
     regolith-i3-config
 Description: Configuration for windows and workspaces
+ Keybindings to navigate and manage windows and workspaces.
 
 Package: regolith-i3-navigation
 Architecture: any
 Depends: ${misc:Depends},
     regolith-i3-config
 Description: Configuration for navigation
+ Keybindings for workspace navigation.
