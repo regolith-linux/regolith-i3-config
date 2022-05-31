@@ -145,6 +145,10 @@ set_from_resource $i3-wm.bar.workspace.urgent.text.color i3-wm.bar.workspace.urg
 set_from_resource $i3-wm.font gtk.font_name Sans 13
 font pango:$i3-wm.font
 
+###############################################################################
+# i3 Config Partials
+###############################################################################
+
 # Include any regolith i3 partials
 include /usr/share/regolith/i3/config.d/*
 
