@@ -107,6 +107,7 @@ Depends: ${misc:Depends},
     rofi,
     regolith-i3-config,
     regolith-rofi-config
+Conflicts: regolith-i3-ilia
 Description: Global menu system
  Legacy Rofi support
 
@@ -115,7 +116,7 @@ Architecture: any
 Depends: ${misc:Depends},
     ilia,
     regolith-i3-config
-Conflicts: regolith-i3-remontoire
+Conflicts: regolith-i3-remontoire, regolith-i3-rofi
 Description: Desktop executor
  Manage apps, commands, notifications, keybindings, and 
  windows with this utility.
