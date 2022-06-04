@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.23) focal; urgency=medium
+
+  [ Jeremy Coghill ]
+  * Add missing newlines at end of config files
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 03 Jun 2022 21:42:03 -0700
+
 regolith-i3-config (3.6.22) focal; urgency=medium
 
   [ Ken Gilmer ]
