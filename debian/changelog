@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.24-jammy) jammy; urgency=medium
+
+  [ Ken Gilmer ]
+  * Load media keys daemon to fix prtsc. Addresses https://github.com/regolith-linux/regolith-desktop/issues/653
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 18 Jun 2022 11:27:44 -0700
+
 regolith-i3-config (3.6.23) focal; urgency=medium
 
   [ Jeremy Coghill ]
