@@ -26,3 +26,6 @@ bindsym $mod+$i3-wm.binding.bluetooth exec --no-startup-id $i3-wm.program.blueto
 set_from_resource $i3-wm.binding.files i3-wm.binding.files Shift+n
 set_from_resource $i3-wm.program.files i3-wm.program.files /usr/bin/nautilus --new-window
 bindsym $mod+$i3-wm.binding.files exec --no-startup-id $i3-wm.program.files
+
+set_from_resource $i3-wm.program.media-keys i3-wm.program.media-keys /usr/libexec/gnome-flashback-media-keys
+exec --no-startup-id $i3-wm.program.media-keys
