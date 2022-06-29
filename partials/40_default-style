@@ -2,11 +2,13 @@
 floating_maximum_size -1 x -1
 for_window [class="floating_window"] floating enable
 
-# Disable titlebar
+# Set titlebar mode
+set_from_resource $i3-wm.floatingwindow.border.style i3-wm.floatingwindow.border.style pixel
 set_from_resource $i3-wm.floatingwindow.border.size i3-wm.floatingwindow.border.size 1
-default_floating_border pixel $i3-wm.floatingwindow.border.size
+default_floating_border $i3-wm.floatingwindow.border.style $i3-wm.floatingwindow.border.size
+set_from_resource $i3-wm.window.border.style i3-wm.window.border.style pixel
 set_from_resource $i3-wm.window.border.size i3-wm.window.border.size 1
-default_border pixel $i3-wm.window.border.size
+default_border $i3-wm.window.border.style $i3-wm.window.border.size
 
 # Enable popup during fullscreen
 set_from_resource $i3-wm.gaps.popup_during_fullscreen i3-wm.gaps.popup_during_fullscreen smart
