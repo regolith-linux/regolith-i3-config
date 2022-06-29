@@ -1,3 +1,10 @@
+regolith-i3-config (3.6.24) focal; urgency=medium
+
+  [ joe ]
+  * allow titlebar to be enabled via Xresources
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 28 Jun 2022 21:19:14 -0700
+
 regolith-i3-config (3.6.23) focal; urgency=medium
 
   [ Jeremy Coghill ]
