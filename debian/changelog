@@ -1,3 +1,10 @@
+regolith-i3-config (3.7.0) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Add new integration i3-swap-focus
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 02 Jul 2022 13:49:09 -0700
+
 regolith-i3-config (3.6.24) focal; urgency=medium
 
   [ joe ]
