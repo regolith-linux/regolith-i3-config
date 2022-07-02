@@ -158,6 +158,14 @@ Depends: ${misc:Depends},
 Description: easy i3 workspace creation
  Automatically determine unused workspace to move to.
 
+Package: regolith-i3-swap-focus
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-i3-config,
+    i3-swap-focus
+Description: Navigate to last focused window
+ Automatically swap back to the last window on any workspace.
+
 Package: regolith-i3-i3xrocks
 Architecture: any
 Depends: ${misc:Depends},
