@@ -1,5 +1,5 @@
-## Navigate // Last Focused Window // <><Alt> Tab ##
-set_from_resource $i3-wm.binding.swap_focus i3-wm.binding.swap_focus Tab
-bindsym $mod+$alt+$i3-wm.binding.swap_focus exec --no-startup-id pkill -USR1 -F "${XDG_RUNTIME_DIR}/swap_focus.pid"
+## Navigate // Last Focused Window // <> \ ##
+set_from_resource $i3-wm.binding.swap_focus i3-wm.binding.swap_focus backslash
+bindsym $mod+$i3-wm.binding.swap_focus exec --no-startup-id pkill -USR1 -F "${XDG_RUNTIME_DIR}/swap_focus.pid"
 
 exec --no-startup-id i3-swap-focus
