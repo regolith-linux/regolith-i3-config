@@ -154,3 +154,4 @@ include /usr/share/regolith/i3/config.d/*
 
 # Include any user i3 partials
 include $HOME/.config/regolith2/i3/config.d/*
+include $HOME/.config/regolith2/i3/config
