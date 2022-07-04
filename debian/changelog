@@ -1,3 +1,10 @@
+regolith-i3-config (3.7.4) focal; urgency=medium
+
+  [ Ken Gilmer ]
+  * Switch to super-. for swap-focus based on user feedback
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 04 Jul 2022 09:53:31 -0700
+
 regolith-i3-config (3.7.3) focal; urgency=medium
 
   [ Ken Gilmer ]
