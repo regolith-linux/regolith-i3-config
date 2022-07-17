@@ -1,3 +1,10 @@
+regolith-i3-config (3.7.5) focal; urgency=medium
+
+  [ Ken Gilmer] 
+  * Fix keybinding comment for window swap
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 17 Jul 2022 07:09:32 -0700
+
 regolith-i3-config (3.7.4) focal; urgency=medium
 
   [ Ken Gilmer ]
