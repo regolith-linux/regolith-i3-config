@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ICON=$(xrescat ilia.look-selector.icon applications-other)
+ICON=$(trawlcat ilia.look-selector.icon applications-other)
 
 new_look=$(/usr/bin/regolith-look list | ilia -p textlist -l "Look Selector" -i "$ICON")
 

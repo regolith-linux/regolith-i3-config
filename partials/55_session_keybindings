@@ -25,7 +25,8 @@ bindsym $mod+$i3-wm.binding.restart restart
 
 ## Session // Logout // <><Shift> e ##
 set_from_resource $i3-wm.binding.logout i3-wm.binding.logout Shift+e
-set_from_resource $i3-wm.program.logout i3-wm.program.logout /usr/bin/gnome-session-quit --logout
+#set_from_resource $i3-wm.program.logout i3-wm.program.logout /usr/bin/gnome-session-quit --logout
+set_from_resource $i3-wm.program.logout i3-wm.program.logout swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 bindsym $mod+$i3-wm.binding.logout exec $i3-wm.program.logout
 
 ## Session // Reboot // <><Shift> b ##

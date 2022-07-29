@@ -1,0 +1,11 @@
+
+# Wallpaper file location (fallback to /dev/null)
+set_from_resource $regolith.wallpaper.file regolith.wallpaper.file "/dev/null"
+# Wallpaper color / fallback
+set_from_resource $regolith.wallpaper.color.primary regolith.wallpaper.color.primary "#9A9996"
+# Wallpaper mode (fill, fit, stretch, center, tile)
+set_from_resource $regolith.wallpaper.mode regolith.wallpaper.mode "fill"
+
+# format - output <name> background|bg <file> <mode> [<fallback_color>]
+# Set background for all outputs
+output * bg $regolith.wallpaper.file $regolith.wallpaper.mode $regolith.wallpaper.color.primary
