@@ -6,7 +6,11 @@ INSTALL_DATA = install -D -m 0644
 LINK_DATA = ln -s
 
 install:
+	-sudo mkdir -p ${PARTIALS_DIR}
+	-sudo mkdir -p $(BASE_DIR)
+	-sudo ${INSTALL_DATA} ${PWD}/partials/10_xwayland  ${PARTIALS_DIR}
 	-sudo ${INSTALL_DATA} ${PWD}/partials/15_base_launchers  ${PARTIALS_DIR}
+	-sudo ${INSTALL_DATA} ${PWD}/partials/20_ilia  ${PARTIALS_DIR}
 	-sudo ${INSTALL_DATA} ${PWD}/partials/40_next-workspace  ${PARTIALS_DIR}
 	-sudo ${INSTALL_DATA} ${PWD}/partials/70_bar ${PARTIALS_DIR}
 	-sudo ${INSTALL_DATA} ${PWD}/partials/30_navigation ${PARTIALS_DIR}
@@ -24,8 +28,11 @@ install:
 	-sudo ${INSTALL_DATA} ${PWD}/config ${BASE_DIR}
 
 link:
-	-mkdir -p ${PARTIALS_DIR}
+	-sudo mkdir -p ${PARTIALS_DIR}
+	-sudo mkdir -p $(BASE_DIR)
+	-sudo ${INSTALL_DATA} ${PWD}/partials/10_xwayland  ${PARTIALS_DIR}
 	-sudo ${LINK_DATA} ${PWD}/partials/15_base_launchers  ${PARTIALS_DIR}
+	-sudo ${LINK_DATA} ${PWD}/partials/20_ilia  ${PARTIALS_DIR}
 	-sudo ${LINK_DATA} ${PWD}/partials/40_next-workspace  ${PARTIALS_DIR}
 	-sudo ${LINK_DATA} ${PWD}/partials/70_bar ${PARTIALS_DIR}
 	-sudo ${LINK_DATA} ${PWD}/partials/30_navigation ${PARTIALS_DIR}
