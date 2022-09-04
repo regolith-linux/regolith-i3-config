@@ -1,51 +1,9 @@
-regolith-i3-config (3.7.5) focal; urgency=medium
-
-  [ Ken Gilmer] 
-  * Fix keybinding comment for window swap
-
- -- Regolith Linux <regolith.linux@gmail.com>  Sun, 17 Jul 2022 07:09:32 -0700
-
-regolith-i3-config (3.7.4) focal; urgency=medium
-
-  [ Ken Gilmer ]
-  * Switch to super-. for swap-focus based on user feedback
-
- -- Regolith Linux <regolith.linux@gmail.com>  Mon, 04 Jul 2022 09:53:31 -0700
-
-regolith-i3-config (3.7.3) focal; urgency=medium
-
-  [ Ken Gilmer ]
-  * Switch swap-focus to easier keybinding
-
- -- Regolith Linux <regolith.linux@gmail.com>  Sun, 03 Jul 2022 15:11:43 -0700
-
-regolith-i3-config (3.7.1) focal; urgency=medium
-
-  [ Ken Gilmer ]
-  * Fix copypasta in i3-swap-focus
-
- -- Regolith Linux <regolith.linux@gmail.com>  Sat, 02 Jul 2022 14:56:01 -0700
-
-regolith-i3-config (3.7.0) focal; urgency=medium
-
-  [ Ken Gilmer ]
-  * Add new integration i3-swap-focus
-
- -- Regolith Linux <regolith.linux@gmail.com>  Sat, 02 Jul 2022 13:49:09 -0700
-
-regolith-i3-config (3.6.24) focal; urgency=medium
-
-  [ joe ]
-  * allow titlebar to be enabled via Xresources
-
- -- Regolith Linux <regolith.linux@gmail.com>  Tue, 28 Jun 2022 21:19:14 -0700
-
 regolith-i3-config (3.6.24-jammy) jammy; urgency=medium
 
   [ Ken Gilmer ]
   * Load media keys daemon to fix prtsc. Addresses https://github.com/regolith-linux/regolith-desktop/issues/653
 
- -- Regolith Linux <regolith.linux@gmail.com>  Sat, 18 Jun 2022 11:27:44 -0700
+ -- Regolith Linux <regolith.linux@gmail.com>  Sat, 03 Sep 2022 15:55:05 -0700
 
 regolith-i3-config (3.6.23) focal; urgency=medium
 
