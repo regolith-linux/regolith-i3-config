@@ -1,6 +1,6 @@
 # Provide window class to float above tiled windows
 floating_maximum_size -1 x -1
-# for_window [class="floating_window"] floating enable
+for_window [class="floating_window"] floating enable
 
 # Set titlebar mode
 set_from_resource $i3-wm.floatingwindow.border.style i3-wm.floatingwindow.border.style pixel

@@ -1,0 +1,2 @@
+exec --no-startup-id /usr/libexec/xdg-desktop-portal
+exec --no-startup-id /usr/libexec/xdg-desktop-portal-wlr

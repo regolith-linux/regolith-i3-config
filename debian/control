@@ -204,3 +204,15 @@ Depends: ${misc:Depends},
     regolith-i3-config
 Description: Configuration for navigation
  Keybindings for workspace navigation.
+
+
+Package: regolith-sway-config
+Architecture: any
+Depends: ${misc:Depends},
+  sway-regolith (>=1.7),
+  xdg-utils,
+  xdotool
+Conflicts: regolith-i3-wm, regolith-i3-gaps-config
+Replaces: regolith-i3-wm, regolith-i3-gaps-config
+Description: Regolith sway config file
+ This is the sway config file for the Regolith desktop environment.
