@@ -67,6 +67,26 @@ set_from_resource $ws17 i3-wm.workspace.17.name "17"
 set_from_resource $ws18 i3-wm.workspace.18.name "18"
 set_from_resource $ws19 i3-wm.workspace.19.name "19"
 
+set $ws1  "$ws1"
+set $ws2  "$ws2"
+set $ws3  "$ws3"
+set $ws4  "$ws4"
+set $ws5  "$ws5"
+set $ws6  "$ws6"
+set $ws7  "$ws7"
+set $ws8  "$ws8"
+set $ws9  "$ws9"
+set $ws10 "$ws10"
+set $ws11 "$ws11"
+set $ws12 "$ws12"
+set $ws13 "$ws13"
+set $ws14 "$ws14"
+set $ws15 "$ws15"
+set $ws16 "$ws16"
+set $ws17 "$ws17"
+set $ws18 "$ws18"
+set $ws19 "$ws19"
+
 ###############################################################################
 # Workspace Keys
 # These are the keys which will be used while binding workspace switching
