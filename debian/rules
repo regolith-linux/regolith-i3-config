@@ -1,5 +1,13 @@
 #!/usr/bin/make -f
 
+SWAY_DIR = debian/regolith-sway-config/etc/regolith/sway
+
 %:
 	dh $@
+
+install:
+	dh install
+	ls -l $(SWAY_DIR)
+	mv $(SWAY_DIR)/sway_config $(SWAY_DIR)/config 
+
 

@@ -17,4 +17,4 @@ partials/88_network-manager 		/usr/share/regolith/sway/config.d
 partials/40_i3-swap-focus		/usr/share/regolith/sway/config.d
 partials/60_config_keybindings 		/usr/share/regolith/sway/config.d
 partials/90_user-programs 		/usr/share/regolith/sway/config.d
-sway_config 				/etc/regolith/sway/config
+sway_config 				/etc/regolith/sway/
