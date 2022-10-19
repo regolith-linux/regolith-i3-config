@@ -1,3 +1,9 @@
+regolith-i3-config (3.6.25-jammy) jammy; urgency=medium
+
+  * Change float modifier due to change in gtk4
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 18 Oct 2022 20:30:27 -0700
+
 regolith-i3-config (3.6.24-jammy) jammy; urgency=medium
 
   [ Ken Gilmer ]
