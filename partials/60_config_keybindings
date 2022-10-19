@@ -4,28 +4,30 @@
 
 ## Modify // Settings // <> c ##
 set_from_resource $i3-wm.binding.settings i3-wm.binding.settings c
-set_from_resource $i3-wm.program.settings i3-wm.program.settings regolith-control-center --class=floating_window
+set_from_resource $i3-wm.program.settings i3-wm.program.settings regolith-control-center
 bindsym $mod+$i3-wm.binding.settings exec --no-startup-id $i3-wm.program.settings
 
 ## Modify // Display Settings // <> d ##
 set_from_resource $i3-wm.binding.display i3-wm.binding.display d
-set_from_resource $i3-wm.program.display i3-wm.program.display regolith-control-center --class=floating_window display
+set_from_resource $i3-wm.program.display i3-wm.program.display regolith-control-center display
 bindsym $mod+$i3-wm.binding.display exec --no-startup-id $i3-wm.program.display
 
 ## Modify // Wifi Settings // <> w ##
 set_from_resource $i3-wm.binding.wifi i3-wm.binding.wifi w
-set_from_resource $i3-wm.program.wifi i3-wm.program.wifi regolith-control-center --class=floating_window wifi
+set_from_resource $i3-wm.program.wifi i3-wm.program.wifi regolith-control-center wifi
 bindsym $mod+$i3-wm.binding.wifi exec --no-startup-id $i3-wm.program.wifi
 
 ## Modify // Bluetooth Settings // <> b ##
 set_from_resource $i3-wm.binding.bluetooth i3-wm.binding.bluetooth b
-set_from_resource $i3-wm.program.bluetooth i3-wm.program.bluetooth regolith-control-center --class=floating_window bluetooth
+set_from_resource $i3-wm.program.bluetooth i3-wm.program.bluetooth regolith-control-center bluetooth
 bindsym $mod+$i3-wm.binding.bluetooth exec --no-startup-id $i3-wm.program.bluetooth
 
 ## Launch // File Browser // <><Shift> n ##
 set_from_resource $i3-wm.binding.files i3-wm.binding.files Shift+n
 set_from_resource $i3-wm.program.files i3-wm.program.files /usr/bin/nautilus --new-window
 bindsym $mod+$i3-wm.binding.files exec --no-startup-id $i3-wm.program.files
+
+for_window [class="regolith-control-center"] floating enable
 
 set_from_resource $i3-wm.program.media-keys i3-wm.program.media-keys /usr/libexec/gnome-flashback-media-keys
 exec --no-startup-id $i3-wm.program.media-keys
