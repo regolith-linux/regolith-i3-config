@@ -1,3 +1,9 @@
+regolith-i3-config (3.7.6) focal; urgency=medium
+
+  * Change float modifier due to change in gtk4
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 18 Oct 2022 20:31:21 -0700
+
 regolith-i3-config (3.7.5) focal; urgency=medium
 
   [ Ken Gilmer] 
