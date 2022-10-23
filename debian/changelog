@@ -1,3 +1,9 @@
+regolith-i3-config (3.7.7) focal; urgency=medium
+
+  * Allow resize increment to be specified via xres. Address https://github.com/regolith-linux/regolith-i3-config/issues/11
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 Oct 2022 08:36:04 -0700
+
 regolith-i3-config (3.7.6) focal; urgency=medium
 
   * Change float modifier due to change in gtk4
