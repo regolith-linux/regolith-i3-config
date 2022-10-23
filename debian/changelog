@@ -1,3 +1,9 @@
+regolith-i3-config (3.6.27-jammy) jammy; urgency=medium
+
+  * Simplify font spec in i3 workspace label. Allow xres override of bar font to address https://github.com/regolith-linux/regolith-desktop/issues/730
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 Oct 2022 09:27:56 -0700
+
 regolith-i3-config (3.6.26-jammy) jammy; urgency=medium
 
   * Allow resize increment to be specified via xres. Address https://github.com/regolith-linux/regolith-i3-config/issues/11
