@@ -1,3 +1,9 @@
+regolith-i3-config (3.6.28-jammy) jammy; urgency=medium
+
+  * Add padding to workspace indicator on bar for simple looks
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 Oct 2022 16:47:24 -0700
+
 regolith-i3-config (3.6.27-jammy) jammy; urgency=medium
 
   * Simplify font spec in i3 workspace label. Allow xres override of bar font to address https://github.com/regolith-linux/regolith-desktop/issues/730
