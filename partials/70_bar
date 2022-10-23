@@ -12,6 +12,7 @@ set_from_resource $i3-wm.bar.font i3-wm.bar.font monospace
 set_from_resource $i3-wm.bar.separatorchar i3-wm.bar.separatorchar " "
 set_from_resource $i3-wm.bar.stripworkspacenumbers i3-wm.bar.stripworkspacenumbers yes
 set_from_resource $i3-wm.bar.mode i3-wm.bar.mode dock
+set_from_resource $i3-wm.bar.workspace_min_width i3-wm.bar.workspace_min_width 36
 
 # i3xrocks config file. Override this for a custom status bar generator.
 set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3xrocks -u ~/.config/regolith2/i3xrocks/conf.d -d /usr/share/i3xrocks/conf.d
@@ -24,6 +25,7 @@ bar {
   separator_symbol $i3-wm.bar.separatorchar
   status_command $i3-wm.bar.status_command
   strip_workspace_numbers $i3-wm.bar.stripworkspacenumbers
+  workspace_min_width $i3-wm.bar.workspace_min_width
 
   colors {
       background $i3-wm.bar.background.color
