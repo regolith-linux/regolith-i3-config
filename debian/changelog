@@ -1,3 +1,9 @@
+regolith-i3-config (3.6.29-jammy) jammy; urgency=medium
+
+  * Add work around for border issue https://github.com/i3/i3/issues/5149
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 24 Oct 2022 19:35:32 -0700
+
 regolith-i3-config (3.6.28-jammy) jammy; urgency=medium
 
   * Add padding to workspace indicator on bar for simple looks
