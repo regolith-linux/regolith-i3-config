@@ -10,6 +10,10 @@ set_from_resource $i3-wm.window.border.style i3-wm.window.border.style pixel
 set_from_resource $i3-wm.window.border.size i3-wm.window.border.size 1
 default_border $i3-wm.window.border.style $i3-wm.window.border.size
 
+# Work-around for bug in 4.21, remove when fixed
+# See https://github.com/i3/i3/issues/5149
+for_window [all] border pixel $i3-wm.window.border.size
+
 # Enable popup during fullscreen
 set_from_resource $i3-wm.gaps.popup_during_fullscreen i3-wm.gaps.popup_during_fullscreen smart
 popup_during_fullscreen $i3-wm.gaps.popup_during_fullscreen
