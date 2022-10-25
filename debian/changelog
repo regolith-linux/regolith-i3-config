@@ -1,3 +1,9 @@
+regolith-i3-config (3.7.10) focal; urgency=medium
+
+  * Add work around for border issue https://github.com/i3/i3/issues/5149
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 24 Oct 2022 19:36:29 -0700
+
 regolith-i3-config (3.7.9) focal; urgency=medium
 
   * Add padding to workspace indicator on bar for simple looks
