@@ -141,14 +141,29 @@ Conflicts: regolith-i3-rofication
 Description: Rofi based notifications
  Rofication keybindings for ilia.
 
-Package: regolith-i3-gnome
+Package: regolith-i3-control-center-regolith
 Architecture: any
 Depends: ${misc:Depends},
     regolith-i3-config,
     regolith-control-center,
     gnome-settings-daemon
+Provides: regolith-i3-control-center
+Conflicts: regolith-i3-control-center
+Replaces: regolith-i3-control-center
+Description: regolith and gnome integrations for system management
+ Launch regolith settings app for system management.
+
+Package: regolith-i3-control-center-gnome
+Architecture: any
+Depends: ${misc:Depends},
+    regolith-i3-config,
+    gnome-control-center,
+    gnome-settings-daemon
+Provides: regolith-i3-control-center
+Conflicts: regolith-i3-control-center
+Replaces: regolith-i3-control-center
 Description: gnome integrations for system management
- Launch settings app for system management.
+ Launch gnome settings app for system management.
 
 Package: regolith-i3-next-workspace
 Architecture: any
