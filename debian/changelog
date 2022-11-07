@@ -1,3 +1,9 @@
+regolith-i3-config (3.8.1-2) focal; urgency=medium
+
+  * Fix dep decl for retired package
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Mon, 07 Nov 2022 08:55:35 -0800
+
 regolith-i3-config (3.8.1) focal; urgency=medium
 
   * Virtualize control center bindings to support both upstream and regolith-control-center
