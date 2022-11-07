@@ -148,8 +148,8 @@ Depends: ${misc:Depends},
     regolith-control-center,
     gnome-settings-daemon
 Provides: regolith-i3-control-center
-Conflicts: regolith-i3-control-center
-Replaces: regolith-i3-control-center
+Conflicts: regolith-i3-control-center, regolith-i3-gnome
+Replaces: regolith-i3-control-center, regolith-i3-gnome
 Description: regolith and gnome integrations for system management
  Launch regolith settings app for system management.
 
@@ -160,8 +160,8 @@ Depends: ${misc:Depends},
     gnome-control-center,
     gnome-settings-daemon
 Provides: regolith-i3-control-center
-Conflicts: regolith-i3-control-center
-Replaces: regolith-i3-control-center
+Conflicts: regolith-i3-control-center, regolith-i3-gnome
+Replaces: regolith-i3-control-center, regolith-i3-gnome
 Description: gnome integrations for system management
  Launch gnome settings app for system management.
 
