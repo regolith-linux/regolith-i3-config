@@ -12,7 +12,7 @@ partials/81_displayd 			/usr/share/regolith/sway/config.d
 partials/82_rofication 			/usr/share/regolith/sway/config.d
 partials/86_unclutter 			/usr/share/regolith/sway/config.d
 partials/40_default-style 		/usr/share/regolith/sway/config.d 
-partials/55_session_keybindings 	/usr/share/regolith/sway/config.d
+partials/55_session_keybindings_sway 	/usr/share/regolith/sway/config.d
 partials/88_network-manager 		/usr/share/regolith/sway/config.d
 partials/40_i3-swap-focus		/usr/share/regolith/sway/config.d
 partials/60_config_keybindings 		/usr/share/regolith/sway/config.d
