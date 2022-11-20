@@ -25,20 +25,20 @@ bindsym $mod+$i3-wm.binding.restart restart
 
 ## Session // Logout // <><Shift> e ##
 set_from_resource $i3-wm.binding.logout i3-wm.binding.logout Shift+e
-set_from_resource $i3-wm.program.logout i3-wm.program.logout /usr/bin/gnome-session-quit --logout
-set_from_resource $sway.prompt.logout sway.prompt.logout "swaynag -t warning -m 'Do you really want to logout?' -B 'Logout' '$i3-wm.program.logout'"
+set_from_resource $i3-wm.program.logout i3-wm.program.logout /usr/bin/gnome-session-quit --logout --no-prompt && swaymsg exit
+set_from_resource $sway.prompt.logout sway.prompt.logout "swaynag -t warning -m 'Do you really want to logout?' -b 'Logout' '$i3-wm.program.logout'"
 bindsym $mod+$i3-wm.binding.logout exec $sway.prompt.logout 
 
 ## Session // Reboot // <><Shift> b ##
 set_from_resource $i3-wm.binding.reboot i3-wm.binding.reboot Shift+b
-set_from_resource $i3-wm.program.reboot i3-wm.program.reboot /usr/bin/gnome-session-quit --reboot
-set_from_resource $sway.prompt.reboot sway.prompt.reboot "swaynag -t warning -m 'Do you really want to reboot your system?' -B 'Reboot' '$i3-wm.program.reboot'"
+set_from_resource $i3-wm.program.reboot i3-wm.program.reboot /usr/bin/gnome-session-quit --reboot --no-prompt
+set_from_resource $sway.prompt.reboot sway.prompt.reboot "swaynag -t warning -m 'Do you really want to reboot your system?' -b 'Reboot' '$i3-wm.program.reboot'"
 bindsym $mod+$i3-wm.binding.reboot exec $sway.prompt.reboot 
 
 ## Session // Power Down // <><Shift> p ##
 set_from_resource $i3-wm.binding.shutdown i3-wm.binding.shutdown Shift+p
-set_from_resource $i3-wm.program.shutdown i3-wm.program.shutdown /usr/bin/gnome-session-quit --power-off
-set_from_resource $sway.prompt.shutdown sway.prompt.shutdown "swaynag -t warning -m 'Do you really want to shutdown' -B 'Shutdown' '$i3-wm.program.shutdown'"
+set_from_resource $i3-wm.program.shutdown i3-wm.program.shutdown /usr/bin/gnome-session-quit --power-off --no-prompt
+set_from_resource $sway.prompt.shutdown sway.prompt.shutdown "swaynag -t warning -m 'Do you really want to shutdown' -b 'Shutdown' '$i3-wm.program.shutdown'"
 bindsym $mod+$i3-wm.binding.shutdown exec $sway.prompt.shutdown 
 
 ## Session // Lock Screen // <> Escape ##

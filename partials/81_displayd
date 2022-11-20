@@ -1,2 +1,0 @@
-set_from_resource $swaywm.control_center.display_daemon swaywm.control_center.display_daemon /usr/bin/regolith-displayd
-exec --no-startup-id $swaywm.control_center.display_daemon

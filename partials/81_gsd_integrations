@@ -1,0 +1,7 @@
+set_from_resource $sway.gsd.display sway.gsd.display /usr/bin/regolith-displayd-init
+set_from_resource $sway.gsd.input sway.gsd.input /usr/bin/regolith-input
+set_from_resource $regolith.kanshi.path regolith.kanshi.path ~/.config/regolith2/kanshi
+
+exec --no-startup-id kanshi -c $regolith.kanshi.path/config
+exec --no-startup-id $sway.gsd.display
+exec --no-startup-id $sway.gsd.input
