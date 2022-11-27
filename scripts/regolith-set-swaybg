@@ -1,0 +1,13 @@
+#!/bin/bash
+wallpaper=$(trawlcat regolith.wallpaper.file "")
+color=$(trawlcat regolith.wallpaper.color.primary)
+mode=$(trawlcat regolith.wallpaper.mode "fill")
+outputs=$(trawlcat regolith.wallpaper.outputs "*")
+
+if [[ "$wallpaper" == "" ]]; then
+	echo "Colors: $color"
+	exec swaymsg output "*" background "$color" solid_color
+else
+	echo "wallpaper"
+	exec swaymsg output "*" background $wallpaper $mode $color 
+fi

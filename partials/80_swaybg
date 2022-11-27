@@ -1,0 +1,1 @@
+exec_always --no-startup-id /usr/bin/regolith-set-swaybg
