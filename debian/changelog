@@ -1,5 +1,11 @@
 regolith-i3-config (3.8.1-2) focal; urgency=medium
 
+  * Added regolith-sway-config binary package for Regolith on Wayland 
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Thu, 15 Dec 2022 01:30:59 +0530
+
+regolith-i3-config (3.8.1-2) focal; urgency=medium
+
   * Fix dep decl for retired package
 
  -- Regolith Linux <regolith.linux@gmail.com>  Mon, 07 Nov 2022 08:55:35 -0800
