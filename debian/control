@@ -228,6 +228,8 @@ Depends: ${misc:Depends},
   xdg-utils,
   xdotool,
   xdg-desktop-portal,
-  xdg-desktop-portal-wlr
+  xdg-desktop-portal-wlr,
+  grim,
+  slurp
 Description: Regolith sway config file
  This is the sway config file for the Regolith desktop environment.
