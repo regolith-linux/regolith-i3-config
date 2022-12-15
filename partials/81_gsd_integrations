@@ -7,4 +7,5 @@ exec --no-startup-id $sway.gsd.display
 exec --no-startup-id echo $sway.gsd.input && $sway.gsd.input
 
 # Workaround for rfkill not starting on gnome-session start
-exec --no-startup-id /usr/libexec/gsd-rfkill
+exec --no-startup-id killall gsd-rfkill && /usr/libexec/gsd-rfkill
+
