@@ -1,3 +1,9 @@
+regolith-i3-config (3.8.2-1) focal; urgency=medium
+
+  * Updated i3status-rs config install location
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Thu, 15 Dec 2022 21:14:08 +0530
+
 regolith-i3-config (3.8.2) focal; urgency=medium
 
   * Rofication use ilia
