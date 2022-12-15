@@ -9,7 +9,7 @@ partials/35_i3-gaps 			/usr/share/regolith/sway/config.d
 partials/50_resize-mode 		/usr/share/regolith/sway/config.d       
 partials/80_swaybg 			/usr/share/regolith/sway/config.d
 partials/81_gsd_integrations 		/usr/share/regolith/sway/config.d
-partials/82_rofication 			/usr/share/regolith/sway/config.d
+partials/82_rofication-ilia 			/usr/share/regolith/sway/config.d
 partials/86_unclutter 			/usr/share/regolith/sway/config.d
 partials/40_default-style_sway 		/usr/share/regolith/sway/config.d 
 partials/55_session_keybindings_sway 	/usr/share/regolith/sway/config.d
