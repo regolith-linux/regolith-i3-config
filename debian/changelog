@@ -3,7 +3,7 @@ regolith-i3-config (3.8.1-2ubuntu1) UNRELEASED; urgency=medium
   * fix sway configuration errors
   * Update depends for regolith-sway-config
 
- -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Thu, 15 Dec 2022 10:36:50 +0530
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Thu, 15 Dec 2022 11:24:39 +0530
 
 regolith-i3-config (3.8.1-2) focal; urgency=medium
 
