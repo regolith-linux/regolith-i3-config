@@ -2,7 +2,7 @@ partials/15_base_launchers  		/usr/share/regolith/sway/config.d
 partials/20_ilia  			/usr/share/regolith/sway/config.d
 partials/25_xdg_desktop_portal 		/usr/share/regolith/sway/config.d
 partials/40_next-workspace  		/usr/share/regolith/sway/config.d
-partials/70_bar 			/usr/share/regolith/sway/config.d
+partials/70_bar_i3status-rs			/usr/share/regolith/sway/config.d
 partials/30_navigation 			/usr/share/regolith/sway/config.d
 partials/40_workspace-config 		/usr/share/regolith/sway/config.d  
 partials/35_i3-gaps 			/usr/share/regolith/sway/config.d     

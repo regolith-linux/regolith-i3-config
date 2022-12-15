@@ -1,0 +1,43 @@
+###############################################################################
+# i3 Bar
+###############################################################################
+
+# Toggle bar visibility
+## Modify // Toggle Bar // <> i ##
+set_from_resource $i3-wm.binding.bar_toggle i3-wm.binding.bar_toggle i
+bindsym $mod+$i3-wm.binding.bar_toggle bar mode toggle
+
+set_from_resource $i3-wm.bar.position i3-wm.bar.position bottom
+set_from_resource $i3-wm.bar.font i3-wm.bar.font monospace
+set_from_resource $i3-wm.bar.separatorchar i3-wm.bar.separatorchar " "
+set_from_resource $i3-wm.bar.stripworkspacenumbers i3-wm.bar.stripworkspacenumbers yes
+set_from_resource $i3-wm.bar.mode i3-wm.bar.mode dock
+set_from_resource $i3-wm.bar.workspace_min_width i3-wm.bar.workspace_min_width 36
+set_from_resource $i3-wm.bar.workspace_min_width i3-wm.bar.workspace_min_width 36
+set_from_resource $i3-wm.bar.status_config i3-wm.bar.status_config /etc/regolith2/i3status.toml
+
+# i3status config file. Override this for a custom status bar generator.
+set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3status-rs $i3-wm.bar.status_config
+
+# The bar configuration
+bar {
+  position $i3-wm.bar.position
+  mode $i3-wm.bar.mode
+  font pango:$i3-wm.bar.font
+  separator_symbol $i3-wm.bar.separatorchar
+  status_command $i3-wm.bar.status_command
+  strip_workspace_numbers $i3-wm.bar.stripworkspacenumbers
+  workspace_min_width $i3-wm.bar.workspace_min_width
+
+  colors {
+      background $i3-wm.bar.background.color
+      statusline $i3-wm.bar.statusline.color
+      separator  $i3-wm.bar.separator.color
+
+#                        BORDER  BACKGROUND TEXT
+      focused_workspace  $i3-wm.bar.workspace.focused.border.color      $i3-wm.bar.workspace.focused.background.color   $i3-wm.bar.workspace.focused.text.color
+      active_workspace   $i3-wm.bar.workspace.active.border.color       $i3-wm.bar.workspace.active.background.color    $i3-wm.bar.workspace.active.text.color
+      inactive_workspace $i3-wm.bar.workspace.inactive.border.color     $i3-wm.bar.workspace.inactive.background.color  $i3-wm.bar.workspace.inactive.text.color
+      urgent_workspace   $i3-wm.bar.workspace.urgent.border.color       $i3-wm.bar.workspace.urgent.background.color    $i3-wm.bar.workspace.urgent.text.color
+  }
+}
