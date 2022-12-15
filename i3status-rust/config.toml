@@ -1,15 +1,18 @@
-theme = "solarized-dark"
+theme = "semi-native"
 icons = "awesome"
+
+[[block]]
+block = "net"
 
 [[block]]
 block = "disk_space"
 path = "/"
-alias = "/"
-info_type = "available"
+info_type = "used"
+format = "{icon} {percentage}"
+alert_absolute = true
 unit = "GB"
-interval = 20
-warning = 20.0
-alert = 10.0
+alert = 50
+warning = 40
 
 [[block]]
 block = "memory"
@@ -18,22 +21,24 @@ format_mem = "{mem_used_percents}"
 format_swap = "{swap_used_percents}"
 
 [[block]]
-block = "cpu"
-interval = 1
+block = "battery"
+interval = 10
+format = " {percentage}"
+full_format = " {percentage}"
+hide_missing = true
+driver = "sysfs"
 
 [[block]]
-block = "load"
+block = "rofication"
 interval = 1
-format = "{1m}"
+socket_path = "/tmp/rofi_notification_daemon"
 
 [[block]]
 block = "sound"
+driver = "pulseaudio"
 
 [[block]]
 block = "time"
 interval = 5
-format = "%a %d/%m %R"
+format = "%d/%m %R"
 
-[[block]]
-block = "battery"
-if_command = "test -e /sys/class/power_supply/BAT0"

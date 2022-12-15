@@ -14,7 +14,7 @@ set_from_resource $i3-wm.bar.stripworkspacenumbers i3-wm.bar.stripworkspacenumbe
 set_from_resource $i3-wm.bar.mode i3-wm.bar.mode dock
 set_from_resource $i3-wm.bar.workspace_min_width i3-wm.bar.workspace_min_width 36
 set_from_resource $i3-wm.bar.workspace_min_width i3-wm.bar.workspace_min_width 36
-set_from_resource $i3-wm.bar.status_config i3-wm.bar.status_config /etc/regolith2/i3status-rust/config.toml
+set_from_resource $i3-wm.bar.status_config i3-wm.bar.status_config /etc/regolith/i3status-rust/config.toml
 
 # i3status config file. Override this for a custom status bar generator.
 set_from_resource $i3-wm.bar.status_command i3-wm.bar.status_command i3status-rs $i3-wm.bar.status_config
