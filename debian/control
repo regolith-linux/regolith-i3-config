@@ -231,6 +231,7 @@ Depends: ${misc:Depends},
   xdg-desktop-portal-wlr,
   grim,
   slurp,
+  regolith-avizo,
   i3status-rs
 Description: Regolith sway config file
  This is the sway config file for the Regolith desktop environment.

@@ -1,0 +1,23 @@
+### Bindings managed by gsd_media_keys
+
+# Volume Controls
+set_from_resource $sway.media.volume.step sway.media.volume.step 5
+bindsym --locked XF86AudioRaiseVolume exec volumectl -u + $sway.media.volume.step
+bindsym --locked XF86AudioLowerVolume exec volumectl -u - $sway.media.volume.step
+bindsym --locked XF86AudioMute exec volumectl %
+
+# Brightness Controls
+set_from_resource $sway.media.brightness.step sway.media.brightness.step 5
+bindsym XF86MonBrightnessUp exec lightctl + $sway.media.brightness.step
+bindsym XF86MonBrightnessDown exec lightctl - $sway.media.brightness.step
+
+# Player Controls
+bindsym XF86AudioPlayPause --locked exec playerctl play-pause
+bindsym XF86AudioNext --locked exec playerctl next
+bindsym XF86AudioPrev --locked exec playerctl prev
+
+# Start avizo for overlays
+exec avizo-service
+
+# Start Playerctl service
+exec playerctld daemon

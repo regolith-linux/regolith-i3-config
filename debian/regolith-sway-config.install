@@ -18,6 +18,7 @@ partials/40_i3-swap-focus		/usr/share/regolith/sway/config.d
 partials/60_config_keybindings_sway	/usr/share/regolith/sway/config.d
 partials/90_user-programs 		/usr/share/regolith/sway/config.d
 partials/95_dbus-activation_sway    /usr/share/regolith/sway/config.d
+partials/65_media_keybindings     /usr/share/regolith/sway/config.d
 sway_config 				/etc/regolith/sway/
 scripts/regolith-set-swaybg     	/usr/bin
 i3status-rust/config.toml    		/etc/regolith/i3status-rust/
