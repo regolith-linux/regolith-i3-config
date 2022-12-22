@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.4) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Fixed XF86AudioPlay
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Thu, 22 Dec 2022 22:36:45 +0530
+
 regolith-i3-config (3.8.3) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
