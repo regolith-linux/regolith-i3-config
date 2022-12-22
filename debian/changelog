@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.5) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Send ticks to notify regolith-inputd about sway reload status
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Fri, 23 Dec 2022 03:17:48 +0530
+
 regolith-i3-config (3.8.4) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
