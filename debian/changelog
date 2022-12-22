@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.3) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Added configs for media keys and OSD
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Thu, 22 Dec 2022 21:34:43 +0530
+
 regolith-i3-config (3.8.2-2) focal; urgency=medium
 
   * Update i3status-rs config install location
