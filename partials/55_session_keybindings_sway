@@ -2,6 +2,9 @@
 # Session Management
 ###############################################################################
 
+set $send_reload_pending_tick swaymsg -t send_tick '{"status": "reload_pending"}'
+exec_always swaymsg -t send_tick '{"status": "reload_done"}'
+
 ## Session // Exit App // <><Shift> q ##
 set_from_resource $i3-wm.binding.exit_app i3-wm.binding.exit_app Shift+q
 bindsym $mod+$i3-wm.binding.exit_app [con_id="__focused__"] kill
@@ -12,16 +15,12 @@ bindsym $mod+$alt+$i3-wm.binding.kill_app [con_id="__focused__"] exec --no-start
 
 ## Session // Reload i3 Config // <><Shift> c ##
 set_from_resource $i3-wm.binding.reload i3-wm.binding.reload Shift+c
-bindsym $mod+$i3-wm.binding.reload reload
+bindsym $mod+$i3-wm.binding.reload exec $send_reload_pending_tick && swaymsg reload
 
 ## Session // Refresh Session // <><Shift> r ##
 set_from_resource $i3-wm.binding.refresh i3-wm.binding.refresh Shift+r
 set_from_resource $i3-wm.program.refresh_ui i3-wm.program.refresh_ui /usr/bin/regolith-look refresh
-bindsym $mod+$i3-wm.binding.refresh exec --no-startup-id $i3-wm.program.refresh_ui
-
-## Session // Restart i3 // <><Ctrl> r ##
-set_from_resource $i3-wm.binding.restart i3-wm.binding.restart Ctrl+r
-bindsym $mod+$i3-wm.binding.restart restart
+bindsym $mod+$i3-wm.binding.refresh exec $i3-wm.program.refresh_ui
 
 ## Session // Logout // <><Shift> e ##
 set_from_resource $i3-wm.binding.logout i3-wm.binding.logout Shift+e
