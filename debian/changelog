@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.6) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Added support for setting wallpapers from xml
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Sun, 25 Dec 2022 05:48:43 +0530
+
 regolith-i3-config (3.8.5) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
