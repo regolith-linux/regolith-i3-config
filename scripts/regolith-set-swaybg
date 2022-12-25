@@ -4,10 +4,34 @@ color=$(trawlcat regolith.wallpaper.color.primary)
 mode=$(trawlcat regolith.wallpaper.mode "fill")
 outputs=$(trawlcat regolith.wallpaper.outputs "*")
 
-if [[ "$wallpaper" == "" ]]; then
-	echo "Colors: $color"
-	exec swaymsg output "*" background "$color" solid_color
-else
-	echo "wallpaper"
-	exec swaymsg output "*" background $wallpaper $mode $color 
+is_text=$(file $wallpaper | grep "text" | wc -l)
+is_valid_xml=false
+
+if [[ "$is_text" == "1" ]]; then
+  xmllint --noout $wallpaper
+  if [[ "$?" == "0" ]]; then
+    is_valid_xml=true
+  fi
 fi
+
+echo "$wallpaper IS valid XML? $is_valid_xml"
+
+if [[ "$wallpaper" == "" || ! $is_valid_xml ]]; then
+	exec swaymsg output "*" background "$color" solid_color
+fi
+
+if $is_valid_xml; then
+  swaymsg output "*" background $(xmllint $wallpaper --xpath "string(*//size/text())") $mode $color
+  while IFS= read -r output_conf; do    
+    local height=$(echo $config | jq '.height')
+    local width=$(echo $config | jq '.width')
+    local name=$(echo $config | jq '.name')
+    local wallpaper_file=$(xmllint $wallpaper --xpath "string(*//size[@width=$width])[@height=$height]/text()")
+    swaymsg output "$name" "$wallpaper_file" $mode $color
+  done< <(swaymsg -t get_outputs |
+    jq ' map({name:.name, width: .current_mode.width, heght: .current_mode.height}) ' |
+    jq -c '.[]')
+else
+  exec swaymsg output "*" background $wallpaper $mode $color 
+fi
+
