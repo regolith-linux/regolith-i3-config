@@ -12,9 +12,9 @@ bindsym XF86MonBrightnessUp exec lightctl + $sway.media.brightness.step
 bindsym XF86MonBrightnessDown exec lightctl - $sway.media.brightness.step
 
 # Player Controls
-bindsym XF86AudioPlay --locked exec playerctl play-pause
-bindsym XF86AudioNext --locked exec playerctl next
-bindsym XF86AudioPrev --locked exec playerctl prev
+bindsym --locked XF86AudioPlay exec playerctl play-pause
+bindsym --locked XF86AudioNext exec playerctl next
+bindsym --locked XF86AudioPrev exec playerctl prev
 
 # Start avizo for overlays
 exec avizo-service
