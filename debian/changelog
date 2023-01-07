@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.7) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * fixes for media_keybindings
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Sat, 07 Jan 2023 12:06:18 +0530
+
 regolith-i3-config (3.8.6) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
