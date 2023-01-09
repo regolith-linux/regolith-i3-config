@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.8) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Added config partials
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Mon, 09 Jan 2023 22:01:24 +0530
+
 regolith-i3-config (3.8.7) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
