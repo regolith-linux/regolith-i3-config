@@ -12,7 +12,7 @@ set_from_resource $i3-wm.program.launcher.cmd i3-wm.program.launcher.cmd ilia -p
 bindsym $mod+$i3-wm.binding.launcher.cmd exec --no-startup-id $i3-wm.program.launcher.cmd -t $ilia.stylesheet
 
 ## Launch // Keybinding Viewer // <><Shift> ? ##
-set_from_resource $i3-wm.binding.help i3-wm.binding.help Shift+question
+set_from_resource $i3-wm.binding.help i3-wm.binding.help Shift+slash
 set_from_resource $i3-wm.program.help i3-wm.program.help ilia -p keybindings
 bindsym $mod+$i3-wm.binding.help exec --no-startup-id $i3-wm.program.help -a -t $ilia.stylesheet
 

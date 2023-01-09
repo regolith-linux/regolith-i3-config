@@ -1,0 +1,5 @@
+## Session // Lock Screen // <> Escape ##
+set_from_resource $i3-wm.binding.lock i3-wm.binding.lock Escape
+set_from_resource $i3-wm.program.lock i3-wm.program.lock gtklock
+bindsym $mod+$i3-wm.binding.lock exec $i3-wm.program.lock
+
