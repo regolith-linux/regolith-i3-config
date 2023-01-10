@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.10) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Add regolith-ftue to sway config
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Tue, 10 Jan 2023 11:34:34 +0530
+
 regolith-i3-config (3.8.9) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
