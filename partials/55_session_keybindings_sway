@@ -40,11 +40,6 @@ set_from_resource $i3-wm.program.shutdown i3-wm.program.shutdown /usr/bin/gnome-
 set_from_resource $sway.prompt.shutdown sway.prompt.shutdown "swaynag -t warning -m 'Do you really want to shutdown' -b 'Shutdown' '$i3-wm.program.shutdown'"
 bindsym $mod+$i3-wm.binding.shutdown exec $sway.prompt.shutdown 
 
-## Session // Lock Screen // <> Escape ##
-set_from_resource $i3-wm.binding.lock i3-wm.binding.lock Escape
-set_from_resource $i3-wm.program.lock i3-wm.program.lock dbus-send --type=method_call --dest=org.gnome.ScreenSaver /org/gnome/ScreenSaver org.gnome.ScreenSaver.Lock
-bindsym $mod+$i3-wm.binding.lock exec $i3-wm.program.lock 
-
 ## Session // Sleep // <><Shift> s ##
 set_from_resource $i3-wm.binding.sleep i3-wm.binding.sleep Shift+s
 set_from_resource $i3-wm.program.sleep i3-wm.program.sleep systemctl suspend

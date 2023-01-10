@@ -232,6 +232,7 @@ Depends: ${misc:Depends},
   grim,
   slurp,
   regolith-avizo,
+  gtklock,
   i3status-rs
 Description: Regolith sway config file
  This is the sway config file for the Regolith desktop environment.
