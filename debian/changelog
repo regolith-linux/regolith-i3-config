@@ -1,3 +1,10 @@
+regolith-i3-config (3.8.9) focal; urgency=medium
+
+  [ Soumya Ranjan Patnaik ]
+  * Fix gtklock keybinding conflict and dependency
+
+ -- Soumya Ranjan Patnaik <soumyaranjan1812@gmail.com>  Tue, 10 Jan 2023 09:32:29 +0530
+
 regolith-i3-config (3.8.8) focal; urgency=medium
 
   [ Soumya Ranjan Patnaik ]
