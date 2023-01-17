@@ -3,7 +3,7 @@ set_from_resource $wm.gsd.input wm.gsd.input /usr/bin/regolith-inputd
 set_from_resource $wm.gsd.power wm.gsd.power /usr/bin/regolith-powerd
 set_from_resource $regolith.kanshi.path regolith.kanshi.path ~/.config/regolith2/kanshi
 
-exec_always killall kanshi; kanshi -c $regolith.kanshi.path/config
+exec_always bash -c "killall kanshi; kanshi -c $regolith.kanshi.path/config"
 exec $wm.gsd.display
 exec $wm.gsd.power
 exec $wm.gsd.input
