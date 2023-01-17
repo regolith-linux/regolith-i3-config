@@ -1,10 +1,12 @@
-set_from_resource $sway.gsd.display sway.gsd.display /usr/bin/regolith-displayd-init
-set_from_resource $sway.gsd.input sway.gsd.input /usr/bin/regolith-inputd
+set_from_resource $wm.gsd.display wm.gsd.display /usr/bin/regolith-displayd-init
+set_from_resource $wm.gsd.input wm.gsd.input /usr/bin/regolith-inputd
+set_from_resource $wm.gsd.power wm.gsd.power /usr/bin/regolith-powerd
 set_from_resource $regolith.kanshi.path regolith.kanshi.path ~/.config/regolith2/kanshi
 
-exec_always --no-startup-id kanshi -c $regolith.kanshi.path/config
-exec --no-startup-id $sway.gsd.display
-exec --no-startup-id echo $sway.gsd.input && $sway.gsd.input
+exec_always killall kanshi; kanshi -c $regolith.kanshi.path/config
+exec $wm.gsd.display
+exec $wm.gsd.power
+exec $wm.gsd.input
 
 # Workaround for rfkill not starting on gnome-session start
 exec --no-startup-id killall gsd-rfkill && /usr/libexec/gsd-rfkill
