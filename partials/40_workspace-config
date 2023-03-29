@@ -56,7 +56,7 @@ bindsym $mod+$i3-wm.binding.fullscreen_toggle fullscreen toggle
 
 ## Modify // Window Floating Toggle // <><Shift> f ##
 set_from_resource $i3-wm.binding.float_toggle i3-wm.binding.float_toggle Shift+f
-bindsym $mod+Shift+$i3-wm.binding.float_toggle floating toggle
+bindsym $mod+$i3-wm.binding.float_toggle floating toggle
 
 ## Modify // Move to Scratchpad // <><Ctrl> m ##
 set_from_resource $i3-wm.binding.move_scratchpad i3-wm.binding.move_scratchpad Ctrl+m
