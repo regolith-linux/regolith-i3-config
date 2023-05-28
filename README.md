@@ -2,6 +2,8 @@
 
 This repo is for Regolith-specific configuration for i3wm and variants.
 
+NOTE: this project has been replaced by regolih-wm-config and is deprecated as of Regolith 3.0.
+
 ## Partials
 
 The following contains a list of all i3 configuration packages provided by files in the `partials/` directory:
