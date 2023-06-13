@@ -1,0 +1,17 @@
+## Screenshot // Selection to File // Prtsc ##
+bindsym --release Print exec --no-startup-id "scrot -s -F ~/Pictures/screenshot_`date +%Y-%m-%d_%H:%M:%S_selection`.png"
+
+## Screenshot // Selection to Clipboard // <> Prtsc ##
+bindsym --release $mod+Print exec --no-startup-id "scrot -s - | xclip -selection clipboard -target image/png"
+
+## Screenshot // Window to File // Ctrl Prtsc ##
+bindsym --release Ctrl+Print exec --no-startup-id "scrot -u -F ~/Pictures/screenshot_`date +%Y-%m-%d_%H:%M:%S_window`.png"
+
+## Screenshot // Window to Clipboard // <> Ctrl Prtsc ##
+bindsym --release $mod+Ctrl+Print exec --no-startup-id "scrot -u - | xclip -selection clipboard -target image/png"
+
+## Screenshot // All to File// Shift Ctrl Prtsc ##
+bindsym --release Ctrl+Shift+Print exec --no-startup-id "scrot -F ~/Pictures/screenshot_`date +%Y-%m-%d_%H:%M:%S_all`.png"
+
+## Screenshot // All to Clipboard // <> Shift Ctrl Prtsc ##
+bindsym --release $mod+Ctrl+Shift+Print exec --no-startup-id "scrot - | xclip -selection clipboard -target image/png"
